@@ -44,7 +44,7 @@ jobs:
           git config --global user.name 'Rime574'
           git config --global user.email '140133420+Rime574@users.noreply.github.com'
           npm i
-          npm i hexo@4.1.1 -g
+          npm i hexo -g
       - name: gen
         run: |
           hexo clean
